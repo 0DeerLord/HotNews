@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="copyright">
+    <!-- <div class="copyright">
       <n-text class="description" v-html="packageJson.description" />
       <n-text
         class="author"
@@ -8,7 +8,7 @@
         v-html="packageJson.author"
         @click="jumpLink(packageJson.github)"
       />
-    </div>
+    </div> -->
     <n-text
       v-if="icp"
       :depth="3"
